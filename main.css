@@ -1,0 +1,258 @@
+body{
+    padding:0;
+    margin: 0;
+}
+
+/*電腦端*/
+.title{
+    color:orange;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 5vw;
+    word-break: normal;
+    justify-content: center;
+    display: flex;
+    margin-top: 25vh;
+    vertical-align: middle;
+    text-align: center;
+}
+.subtitle{
+    color:black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 3vw;
+    word-break: normal;
+    justify-content: center;
+    display: flex;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.dc{
+    width: 100px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    background-color: lightskyblue;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 25px;
+    padding: 2px;
+    border-color: lightskyblue;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+}
+.dcname{
+    width: 170px;
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    font-size: 25px;
+    padding: 2px;
+    border-color: lightskyblue;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.contactbox{
+    justify-content: center;
+    display: inline-flex;
+}
+
+.github{
+    margin-left: 30px;
+    width: 100px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    background-color: gray;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 25px;
+    padding: 2px;
+    border-color: gray;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    text-decoration: none;
+}
+.githubname{
+    width: 170px;
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    font-size: 25px;
+    padding: 2px;
+    border-color: gray;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-decoration: none;
+}
+.contactbox2{
+    justify-content: center;
+    display: inline-flex;
+}
+.cb{
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+}
+
+.sdb{
+    position: absolute;
+    top: 94vh;
+    height: fit-content;
+    width: 100%;
+}
+.sd{
+    position: relative;
+    font-size: 3vh;
+    font-family: sans-serif;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    animation: upanddown 2s 1s forwards infinite;
+}
+
+.github:visited{
+    text-decoration: none;
+}
+.githubname:visited{
+    text-decoration: none;
+}
+
+.introbox{
+    position: absolute;
+    top: 99vh;
+    background-color: rgb(41, 41, 58);
+    height: fit-content;
+    display: block;
+    width: 100%;
+    height: max-content;
+}
+.introtitle{
+    position: relative;
+    margin-top: 2vh;
+    color:white;
+    margin-left: 1vw;
+    font-family: sans-serif;
+    font-size: 3vw;
+    display: block;
+    border-bottom-color: white;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    width: fit-content;
+}
+.intro{
+    position: relative;
+    color:white;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    display: block;
+    word-wrap:break-word;
+}
+.footer{
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+    font-size: 20px;
+    margin-top: 35vh;
+}
+@keyframes boxinto{
+    0%{transform:translateY(0vh);opacity: 1;}
+    100%{transform:translateY(-88vh);opacity: 1;}
+}
+@keyframes boxout{
+    0%{transform:translateY(-88vh);opacity: 1;}
+    100%{transform:translateY(0vh);opacity: 1;}
+}
+@keyframes upanddown {
+    0%{transform:translateY(0px);opacity: 1;}
+    50%{transform:translateY(-25px);opacity: 1;}
+    100%{transform:translateY(0px);opacity: 1;}
+}
+
+/* 手機端 */
+@media screen and (max-width:1000px) {
+    .title{
+        font-size: 12vw;
+        word-break: normal;
+    }
+    .subtitle{
+        font-size: 8vw;
+        word-break: normal;
+    }
+
+    .dc{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .dcname{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .github{
+        display: flex;
+        margin-left: 0px;
+        text-align: center;
+        justify-content: center;
+    }
+    .githubname{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .contactbox{
+        display: flex;
+    }
+    .contactbox2{
+        display: flex;
+        margin-top: 10px;
+    }
+    .cb{
+        display: block;
+    }
+
+    .sdb{
+        position: absolute;
+        top: 95vh;
+        width: 100%;
+    }
+
+    .introbox{
+        position: absolute;
+        top: 99vh;
+        width: 100%;
+        height: max-content;
+    }
+    .introtitle{
+        font-size: 6vw;
+    }
+    .intro{
+        font-size: 4vw;
+    }
+    @keyframes boxinto{
+        0%{transform:translateY(0vh);opacity: 1;}
+        100%{transform:translateY(-89vh);opacity: 1;}
+    }
+    @keyframes boxout{
+        0%{transform:translateY(-89vh);opacity: 1;}
+        100%{transform:translateY(0vh);opacity: 1;}
+    }
+}
