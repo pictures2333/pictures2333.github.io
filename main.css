@@ -231,13 +231,13 @@ body{
 
     .sdb{
         position: absolute;
-        top: 95vh;
+        top: 93vh;
         width: 100%;
     }
 
     .introbox{
         position: absolute;
-        top: 99vh;
+        top: 94vh;
         width: 100%;
         height: max-content;
     }
