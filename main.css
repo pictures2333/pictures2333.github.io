@@ -106,7 +106,7 @@ body{
 
 .sdb{
     position: absolute;
-    top: 94vh;
+    top: 92vh;
     height: fit-content;
     width: 100%;
 }
@@ -159,6 +159,11 @@ body{
     display: block;
     word-wrap:break-word;
 }
+.links{
+    text-decoration: underline;
+    color:white;
+    word-wrap: break-word;
+}
 .footer{
     color: white;
     font-family: sans-serif;
@@ -187,7 +192,7 @@ body{
 }
 
 /* 手機端 */
-@media screen and (max-width:1000px) {
+@media screen and (max-width:900px) {
     .title{
         font-size: 12vw;
         word-break: normal;
