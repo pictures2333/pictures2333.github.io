@@ -164,6 +164,11 @@ body{
     color:white;
     word-wrap: break-word;
 }
+.links:visited{
+    text-decoration: underline;
+    color:white;
+    word-wrap: break-word;
+}
 .footer{
     color: white;
     font-family: sans-serif;
