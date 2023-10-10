@@ -4,6 +4,7 @@ window.onscroll = () => {
     const scrollPositionY = window.scrollY;
     if (scrollPositionY >= window.innerHeight*0.15 && scrolled == false){
         var introbox = document.querySelector(".introbox");
+        window.scroll(0, window.innerHeight*0.15);
         introbox.style.animationFillMode = "forwards";
         introbox.style.animation = "boxinto 1s forwards";
         scrolled = true;
