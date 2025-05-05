@@ -47,14 +47,14 @@
 
   
   <url>
-    <loc>https://p23.tw/tags/hello-world/</loc>
+    <loc>https://p23.tw/tags/pwn/</loc>
     <lastmod>2025-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://p23.tw/tags/pwn/</loc>
+    <loc>https://p23.tw/tags/hello-world/</loc>
     <lastmod>2025-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -63,14 +63,14 @@
 
   
   <url>
-    <loc>https://p23.tw/categories/hello-world/</loc>
+    <loc>https://p23.tw/categories/writeups/</loc>
     <lastmod>2025-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://p23.tw/categories/writeups/</loc>
+    <loc>https://p23.tw/categories/hello-world/</loc>
     <lastmod>2025-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
