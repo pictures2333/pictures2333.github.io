@@ -56,13 +56,6 @@
 
   
   <url>
-    <loc>https://p23.tw/tags/hello-world/</loc>
-    <lastmod>2025-05-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://p23.tw/tags/pwn/</loc>
     <lastmod>2025-05-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -76,14 +69,14 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://p23.tw/categories/hello-world/</loc>
+    <loc>https://p23.tw/tags/hello-world/</loc>
     <lastmod>2025-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
+  
+
   
   <url>
     <loc>https://p23.tw/categories/Linux-Kernel-Pwn/</loc>
@@ -93,14 +86,21 @@
   </url>
   
   <url>
-    <loc>https://p23.tw/categories/Linux-Kernel-Pwn/writeups/</loc>
+    <loc>https://p23.tw/categories/writeups/</loc>
     <lastmod>2025-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://p23.tw/categories/writeups/</loc>
+    <loc>https://p23.tw/categories/hello-world/</loc>
+    <lastmod>2025-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://p23.tw/categories/Linux-Kernel-Pwn/writeups/</loc>
     <lastmod>2025-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
